@@ -7,9 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
+#import <CoreLocation/CoreLocation.h>
 
-@interface ViewController : UIViewController
+#define kGOOGLE_API_KEY @"AIzaSyAK-11MCB6KfW6RRb_qXo_DKpaAyF1ybD4"
 
+@interface ViewController : UIViewController <MKMapViewDelegate, CLLocationManagerDelegate>
 
+{
+    CLLocationManager *locationManager;
+}
+
+@property (weak, nonatomic) IBOutlet MKMapView *mapView;
 @end
 

@@ -14,6 +14,8 @@
 		430C66431A06CE0800505F0B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 430C66421A06CE0800505F0B /* Images.xcassets */; };
 		430C66461A06CE0800505F0B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 430C66441A06CE0800505F0B /* LaunchScreen.xib */; };
 		430C66521A06CE0800505F0B /* GooglePlacesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 430C66511A06CE0800505F0B /* GooglePlacesTests.m */; };
+		430C665C1A06CF6400505F0B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 430C665B1A06CF6400505F0B /* CoreLocation.framework */; };
+		430C665E1A06CF6B00505F0B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 430C665D1A06CF6B00505F0B /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		430C664B1A06CE0800505F0B /* GooglePlacesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GooglePlacesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		430C66501A06CE0800505F0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		430C66511A06CE0800505F0B /* GooglePlacesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GooglePlacesTests.m; sourceTree = "<group>"; };
+		430C665B1A06CF6400505F0B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		430C665D1A06CF6B00505F0B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				430C665E1A06CF6B00505F0B /* MapKit.framework in Frameworks */,
+				430C665C1A06CF6400505F0B /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +69,8 @@
 		430C66291A06CE0700505F0B = {
 			isa = PBXGroup;
 			children = (
+				430C665D1A06CF6B00505F0B /* MapKit.framework */,
+				430C665B1A06CF6400505F0B /* CoreLocation.framework */,
 				430C66341A06CE0800505F0B /* GooglePlaces */,
 				430C664E1A06CE0800505F0B /* GooglePlacesTests */,
 				430C66331A06CE0800505F0B /* Products */,
