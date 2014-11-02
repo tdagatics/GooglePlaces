@@ -16,6 +16,7 @@
 		430C66521A06CE0800505F0B /* GooglePlacesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 430C66511A06CE0800505F0B /* GooglePlacesTests.m */; };
 		430C665C1A06CF6400505F0B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 430C665B1A06CF6400505F0B /* CoreLocation.framework */; };
 		430C665E1A06CF6B00505F0B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 430C665D1A06CF6B00505F0B /* MapKit.framework */; };
+		430C66611A06DE7900505F0B /* MapPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 430C66601A06DE7900505F0B /* MapPoint.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,8 @@
 		430C66511A06CE0800505F0B /* GooglePlacesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GooglePlacesTests.m; sourceTree = "<group>"; };
 		430C665B1A06CF6400505F0B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		430C665D1A06CF6B00505F0B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		430C665F1A06DE7900505F0B /* MapPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapPoint.h; sourceTree = "<group>"; };
+		430C66601A06DE7900505F0B /* MapPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPoint.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +72,8 @@
 		430C66291A06CE0700505F0B = {
 			isa = PBXGroup;
 			children = (
+				430C665F1A06DE7900505F0B /* MapPoint.h */,
+				430C66601A06DE7900505F0B /* MapPoint.m */,
 				430C665D1A06CF6B00505F0B /* MapKit.framework */,
 				430C665B1A06CF6400505F0B /* CoreLocation.framework */,
 				430C66341A06CE0800505F0B /* GooglePlaces */,
@@ -228,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				430C663E1A06CE0800505F0B /* ViewController.m in Sources */,
+				430C66611A06DE7900505F0B /* MapPoint.m in Sources */,
 				430C663B1A06CE0800505F0B /* AppDelegate.m in Sources */,
 				430C66381A06CE0800505F0B /* main.m in Sources */,
 			);
